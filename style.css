@@ -27,7 +27,7 @@ body {
     border: none;
     background: transparent;
     font-size: 14px;
-    color: #007aff;
+    color: #000000;
     outline: none;
     width: 100%; 
     font-weight: 500;
@@ -68,8 +68,4 @@ body {
 
 .segmented-control label:hover {
     background: rgba(255, 255, 255, 0.5);
-}
-
-#demo {
-    cursor: pointer;
 }
