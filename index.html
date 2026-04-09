@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Configuración de Fecha</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+   <div class="container">
+    <div class="search-bar">
+        <input type="text" id="demo" readonly />
+        
+        <div class="segmented-control">
+            <input type="radio" id="single" name="mode" value="single" checked>
+            <label for="single">📍</label>
+            
+            <input type="radio" id="range" name="mode" value="range">
+            <label for="range">📅</label>
+        </div>
+    </div>
+</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/moment/min/moment.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
