@@ -65,3 +65,11 @@ body {
     background: white;
     box-shadow: 0 1px 3px rgba(0,0,0,0.1);
 }
+
+.segmented-control label:hover {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+#demo {
+    cursor: pointer;
+}
